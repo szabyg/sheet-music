@@ -3,6 +3,7 @@
   title = "As the Deer Pants for the Water"
   composer = "Martin J. Nystrom"
 }
+\score {
 <<
 	\chords { 
 		d2 a:/cis | g:/b d:/a | g a | d a |
@@ -11,6 +12,8 @@
 		d2 a:/cis | g:/b d:/a | g a | d1 |
 	}
 	\absolute {
+		\set Score.tempoHideNote = ##t
+		\tempo 4 = 70
 		\key d \major
 
 		fis'4 a' a' fis'8 (e') | d'4. e'8 g' fis' e' d' | b'4 b' a'4. g'8 | a'1 | \break
@@ -48,3 +51,6 @@
 		So much more than a -- ny -- thing
 	}
 >>
+\layout {}
+\midi { }
+}
