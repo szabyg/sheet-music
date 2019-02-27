@@ -17,7 +17,7 @@
 
 		fis'4 a' a' fis'8 e' | d'4. e'8 g' (fis') e' d' | d'4. fis'8 e'4. d'8 | d'1 |\break
 		d''4 d'' d'' d''8 cis'' | b'4 b' a'4. d'8 | b'4 b' b' b'8 a' | g'4 g' fis'2 |\break
-		fis'4 a' a' fis'8 e' | d'4. e'8 g' fis' e' d' | d'4. fis'8 e'4. d'8 | d'1 | \bar "|."
+		fis'4 a' a' fis'8 e' | d'4. e'8 g' ( fis' ) e' d' | d'4. fis'8 e'4. d'8 | d'1 | \bar "|."
 	}
 	\addlyrics {
 		\set stanza = #"1. "
