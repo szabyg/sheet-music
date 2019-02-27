@@ -1,3 +1,7 @@
+\header {
+  title = "As the Deer Pants for the Water"
+  composer = "J. S. Bach."
+}
 <<
 	\chords { 
 		d2 a:/cis | g:/b d:/a | g a | d a |
