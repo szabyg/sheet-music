@@ -1,6 +1,7 @@
+#(set-default-paper-size "a4")
 \header {
   title = "As the Deer Pants for the Water"
-  composer = "J. S. Bach."
+  composer = "Martin J. Nystrom"
 }
 <<
 	\chords { 
@@ -34,7 +35,7 @@
 		\set stanza = #"2. "
 		I want You more than gold or silver
 		on -- ly You can sa -- tis -- fy,
-		You a -- lone are the real joy gi -- ver
+		You a -- lone are the real joy giver
 		And the ap -- ple of my eye
 	}
 	
