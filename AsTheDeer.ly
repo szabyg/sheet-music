@@ -8,7 +8,7 @@
 	\chords { 
 		d2 a:/cis | g:/b d:/a | g a | d a |
 		d2 a:/cis | g:/b d:/a | g a | d1 |
-		b2.:m b4:m/a g2 d | g1 e2:m fis:4
+		b2.:m b4:m/a g2 d:/fis | g1 e2:m fis:4
 		d2 a:/cis | g:/b d:/a | g a | d1 |
 	}
 	\absolute {
