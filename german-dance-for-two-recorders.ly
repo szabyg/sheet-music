@@ -1,4 +1,5 @@
 #(set-default-paper-size "a4")
+#(set-global-staff-size 30)
 \header {
   title = "Német tánc"
   composer = ""
