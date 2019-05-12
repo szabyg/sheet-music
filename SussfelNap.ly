@@ -16,6 +16,10 @@
     e4 f e2 e4 f e2 e d e4 f e2
     \bar "|."
   }}
+  \new Staff { \clef "treble" \relative c' { 
+    c4 c c2 c4 c c2 c d c4 c c2
+    \bar "|."
+  }}
 
   >>
   \layout {}
