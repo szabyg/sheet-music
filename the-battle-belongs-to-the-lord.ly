@@ -2,9 +2,10 @@
 \header {
   title = "The Battle Belongs to the Lord"
   composer = "Words and melody: Jamie Owens-Collins"
-  copyright = "Arranged by Szaby Grünwald"
+  copyright = "Arranged by Szaby Grünwald (2019)"
   tagline = "Music engraving using LilyPond with Hacklily.org"
 }
+
 songChords = \chords { 
 		s4 
 		d2..:m c4./d s8 d2:m s8 |
@@ -59,6 +60,7 @@ songMelody = \relative {
 		Po -- wer and strength to the Lord
 
 	}
+
 	\addlyrics {
 		\set stanza = #"2. "
 
@@ -68,6 +70,7 @@ songMelody = \relative {
 		The bat -- tle be -- longs to the Lord
 
 	}
+
 	\addlyrics {
 		\set stanza = #"3. "
 
