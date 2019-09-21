@@ -6,26 +6,32 @@
 \score {
 <<
 	\chords { 
-		\r8 d2..:m c4../d d2..:m g:/b d:/a g a | d a |
-		d2 a:/cis | g:/b d:/a | g a | d1 |
-		b2.:m b4:m/a g2 d:/fis | g1 e2:m fis:4
-		d2 a:/cis | g:/b d:/a | g a | d1 |
+		s4 
+		d2..:m c4../d d4..:m s4 |
+		d4.:m c2/d s8 d1:m  
+
+		d2..:m c4../d d4..:m s4 |
+		d4.:m c2/d s8 d2:m
+
+		d4:m c/e f2 c bes4 c f2 f4. c2 f s8
+		d4:m c/e f2 c bes4 c f2 f4. c2 d:m
+		
 	}
 	\relative {
 		\set Score.tempoHideNote = ##t
 		\tempo 4 = 70
 		\key d \minor
 
-		\partial 8 
-		a8 | d e f a (a) g f g (|g) f e d (d4) r8
-		a8 | d e f e (e) d c d (|d2) r4 r8 
-		a8 | d e f a (a) g f g (|g) f e d (d4) r8
-		a8 | d e f e (e) d c d (|d4) r4 
+		\partial 4 
+		a8 (a) | d e f a (a) g f g (|g) f e d (d4) r8
+		a8 \break | d e f e (e) d c d (|d2) r4 r8 
+		a8 \break | d e f a (a) g f g (|g) f e d (d4) r8
+		a8 | \break d e f e (e) d c d (|d4) r4 
 		
-		f g | a (a8.) g16 (g4) r | f (g8. a16) a4 r |
+		f g \break | a (a8.) g16 (g4) r | f (g8. a16) a4 r |
 		a8 g f g (g) f g a (|a4) r
-		f g | a (a8.) g16 (g4) r | f (g8. a16) a4 r |
-		a8 g f g (g) f e d (|d1)
+		f g | \break a (a8.) g16 (g4) r | f (g8. a16) a4 r |
+		a8 g f g (g) f e d (|d2.)
 		
 		\break
 		
@@ -39,9 +45,9 @@
 		No wea -- pon that's fa -- shioned a -- gainst us shall stand
 		The bat -- tle be -- longs to the Lord
 		
-		We sing glory and ho -- nor
+		We sing glo -- ry ho -- nor
 		Po -- wer and strength to the Lord
-		We sing glory and ho -- nor
+		We sing glo -- ry ho -- nor
 		Po -- wer and strength to the Lord
 
 	}
@@ -50,13 +56,8 @@
 
 		The po -- wer of dark -- ness comes in like a flood
 		The bat -- tle be -- longs to the Lord
-		He's raised up a stan -- dard, the po -- wer of His blood
+		He's raised up a stan -- dard, the power of His blood
 		The bat -- tle be -- longs to the Lord
-
-		We sing glory and ho -- nor
-		Po -- wer and strength to the Lord
-		We sing glory and ho -- nor
-		Po -- wer and strength to the Lord
 
 	}
 	\addlyrics {
@@ -66,11 +67,6 @@
 		The bat -- tle be -- longs to the Lord
 		Take cou -- rage my friend, your re -- demp -- tion is near
 		The bat -- tle be -- longs to the Lord
-
-		We sing glory and ho -- nor
-		Po -- wer and strength to the Lord
-		We sing glory and ho -- nor
-		Po -- wer and strength to the Lord
 
 	}
 >>
