@@ -1,54 +1,77 @@
 #(set-default-paper-size "a4")
 \header {
-  title = "As the Deer Pants for the Water"
-  composer = "Martin J. Nystrom"
+  title = "The Battle Belongs to the Lord"
+  composer = "Jamie Owens-Collins"
 }
 \score {
 <<
 	\chords { 
-		d2 a:/cis | g:/b d:/a | g a | d a |
+		\r8 d2..:m c4../d d2..:m g:/b d:/a g a | d a |
 		d2 a:/cis | g:/b d:/a | g a | d1 |
 		b2.:m b4:m/a g2 d:/fis | g1 e2:m fis:4
 		d2 a:/cis | g:/b d:/a | g a | d1 |
 	}
-	\absolute {
+	\relative {
 		\set Score.tempoHideNote = ##t
 		\tempo 4 = 70
-		\key d \major
+		\key d \minor
 
-		fis'4 a' a' fis'8 e' | d'4. e'8 g' fis' e' d' | b'4 b' a'4. g'8 | a'1 | \break
-
-		fis'4 a' a' fis'8 e' | d'4. e'8 g' (fis') e' d' | d'4. fis'8 e'4. d'8 | d'1 |\break
-		d''4 d'' d'' d''8 cis'' | b'4 b' a'4. d'8 | b'4 b' b' b'8 a' | g'4 g' fis'2 \fermata |\break
-		fis'4 a' a' fis'8 e' | d'4. e'8 g' ( fis' ) e' d' | d'4. fis'8 e'4. d'8 | d'1 | \bar "|."
+		\partial 8 
+		a8 | d e f a (a) g f g (|g) f e d (d4) r8
+		a8 | d e f e (e) d c d (|d2) r4 r8 
+		a8 | d e f a (a) g f g (|g) f e d (d4) r8
+		a8 | d e f e (e) d c d (|d4) r4 
+		
+		f g | a (a8.) g16 (g4) r | f (g8. a16) a4 r |
+		a8 g f g (g) f g a (|a4) r
+		f g | a (a8.) g16 (g4) r | f (g8. a16) a4 r |
+		a8 g f g (g) f e d (|d1)
+		
+		\break
+		
+		\bar "|."
 	}
 	\addlyrics {
 		\set stanza = #"1. "
-		As the deer pants - for the wa -- ter
-		so my soul longs af -- ter you,
-		You a -- lone are my heart's de -- sire
-		and I long to wor -- ship You.
+
+		In hea -- ven -- ly ar -- mour we'll en -- ter the land
+		The bat -- tle be -- longs to the Lord
+		No wea -- pon that's fa -- shioned a -- gainst us shall stand
+		The bat -- tle be -- longs to the Lord
 		
-		You a -- lone are my strength, my shield,
-		to You a -- lone may my spi -- rit yield
-		You a -- lone are my heart's de -- sire
-		And I long to wor -- ship You
+		We sing glory and ho -- nor
+		Po -- wer and strength to the Lord
+		We sing glory and ho -- nor
+		Po -- wer and strength to the Lord
+
 	}
 	\addlyrics {
 		\set stanza = #"2. "
-		I want You more than gold or sil -- ver
-		on -- ly You can sa -- tis -- fy,
-		You a -- lone are the real joy giver
-		And the ap -- ple of my eye
+
+		The po -- wer of dark -- ness comes in like a flood
+		The bat -- tle be -- longs to the Lord
+		He's raised up a stan -- dard, the po -- wer of His blood
+		The bat -- tle be -- longs to the Lord
+
+		We sing glory and ho -- nor
+		Po -- wer and strength to the Lord
+		We sing glory and ho -- nor
+		Po -- wer and strength to the Lord
+
 	}
-	
 	\addlyrics {
 		\set stanza = #"3. "
-		You're my friend
-		And You are my bro -- ther
-		E -- ven though You are a King
-		I love You more than a -- ny other
-		So much more than a -- ny -- thing
+
+		When-your e -- ne -- my pres -- ses in hard do not fear
+		The bat -- tle be -- longs to the Lord
+		Take cou -- rage my friend, your re -- demp -- tion is near
+		The bat -- tle be -- longs to the Lord
+
+		We sing glory and ho -- nor
+		Po -- wer and strength to the Lord
+		We sing glory and ho -- nor
+		Po -- wer and strength to the Lord
+
 	}
 >>
 \layout {}
