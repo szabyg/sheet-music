@@ -3,7 +3,7 @@
   title = "The Battle Belongs to the Lord"
   composer = "Words and melody: Jamie Owens-Collins"
   copyright = "Arranged by Szaby Grünwald"
-  tagline = "Hacklily.org"
+  tagline = "Music engraving using LilyPond with Hacklily.org"
 }
 songChords = \chords { 
 		s4 
