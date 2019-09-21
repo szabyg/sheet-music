@@ -31,7 +31,7 @@ songMelody = \relative {
 		\parenthesize a8 a | d e f a (a) g f g (|g) f e d (d4) r8
 		a8 | d e f e (e) d c d (|d2) r4 r8 
 		a8 | d e f a (a) g f g (|g) f e d (d4) r8
-		a8 | d e f e (e) d c d (| \break d4) r4 
+		a8 | d e f e (e) d c d (|  d4) r4 
 		
 		f g | a (a8.) g16 (g4) r | f (g8. a16) a4 r |
 		a8 g f g (g) f g a (|a4) r
