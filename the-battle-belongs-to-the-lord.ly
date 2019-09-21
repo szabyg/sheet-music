@@ -3,21 +3,20 @@
   title = "The Battle Belongs to the Lord"
   composer = "Jamie Owens-Collins"
 }
-\score {
-<<
-	\chords { 
+songChords = \chords { 
 		s4 
-		d2..:m c4../d d4..:m s4 |
+		d2..:m c4../d s8 d4..:m s8 |
 		d4.:m c2/d s8 d1:m  
 
-		d2..:m c4../d d4..:m s4 |
+		d2..:m c4../d s8 d4..:m s8 |
 		d4.:m c2/d s8 d2:m
 
 		d4:m c/e f2 c bes4 c f2 f4. c2 f s8
 		d4:m c/e f2 c bes4 c f2 f4. c2 d:m
 		
 	}
-	\relative {
+
+songMelody = \relative {
 		\set Score.tempoHideNote = ##t
 		\tempo 4 = 70
 		\key d \minor
@@ -37,6 +36,12 @@
 		
 		\bar "|."
 	}
+
+\score {
+<<
+	\transpose c a \songChords
+	\transpose c a, \songMelody
+	
 	\addlyrics {
 		\set stanza = #"1. "
 
