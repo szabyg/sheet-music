@@ -5,15 +5,18 @@
 }
 songChords = \chords { 
 		s4 
-		d2..:m c4../d s8 d4..:m s8 |
-		d4.:m c2/d s8 d1:m  
+		d2..:m c4./d s8 d2:m s8 |
+		d4.:m c2/d s8 d1:m |
 
-		d2..:m c4../d s8 d4..:m s8 |
-		d4.:m c2/d s8 d2:m
+		d2..:m c4./d s8 d2:m s8 |
+		d4.:m c2/d s8 d2:m 
 
-		d4:m c/e f2 c bes4 c f2 f4. c2 f s8
-		d4:m c/e f2 c bes4 c f2 f4. c2 d:m
+		d4:m c | f2 c | bes4 c f2 | f4. c2 s8 | f2
+		d4:m c | f2 c | bes4 c f2 | f4. c2 s8 |
 		
+		d4.:m c2/d s8 | bes4./d c2/d s8 |
+		d4.:m c2/d s8 | bes4./d c4/d s8
+
 	}
 
 songMelody = \relative {
@@ -30,8 +33,8 @@ songMelody = \relative {
 		f g \break | a (a8.) g16 (g4) r | f (g8. a16) a4 r |
 		a8 g f g (g) f g a (|a4) r
 		f g | \break a (a8.) g16 (g4) r | f (g8. a16) a4 r |
-		a8 g f g (g) f e d (|d2.)
-		
+		a8 g f g (g) f e d (|d1)
+		s1 s s2.
 		\break
 		
 		\bar "|."
@@ -39,8 +42,8 @@ songMelody = \relative {
 
 \score {
 <<
-	\transpose c a \songChords
-	\transpose c a, \songMelody
+	\transpose d b \songChords
+	\transpose d b, \songMelody
 	
 	\addlyrics {
 		\set stanza = #"1. "
