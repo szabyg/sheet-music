@@ -1,7 +1,7 @@
 #(set-default-paper-size "a4")
 \header {
   title = "The Battle Belongs to the Lord"
-  composer = "Words and melody: Jamie Owens-Collins"
+  composer = "Words and Music: Jamie Owens-Collins"
   copyright = "Arranged by Szaby Grünwald (2019)"
   tagline = "Music engraving using LilyPond with Hacklily.org"
 }
@@ -14,17 +14,17 @@ songChords = \chords {
 		d2..:m c4./d s8 d2:m s8 |
 		d4.:m c2/d s8 | d2:m 
 
-		d4:m c | f2 c | bes4 c f2 | f4. c2 s8 | f2
-		d4:m c | f2 c | bes4 c f2 | f4. c2 s8 |
+		d4:m c | f2 c | bes,4 c f2 | f4. c2 s8 | f2
+		d4:m c | f2 c | bes,4 c f2 | f4. c2 s8 |
 		
-		d4.:m c2/d s8 | bes4./d c2/d s8 |
-		d4.:m c2/d s8 | bes4./d c4/d s8
+		d4.:m c2/d s8 | bes,4./d c2/d s8 |
+		d4.:m c2/d s8 | bes,4./d c4/d s8
 
 	}
 
 songMelody = \relative {
 		\set Score.tempoHideNote = ##t
-		\tempo 4 = 120
+		\tempo 4 = 98
 		\key d \minor
 
 		\partial 4 
