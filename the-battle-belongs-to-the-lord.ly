@@ -28,7 +28,7 @@ songMelody = \relative {
 		\key d \minor
 
 		\partial 4 
-		\parenthesize a8 a | d e f a (a) g f g (|g) f e d (d4) r8
+		\teeny a8 \normalsize a | d e f a (a) g f g (|g) f e d (d4) r8
 		a8 | d e f e (e) d c d (|d2) r4 r8 
 		a8 | d e f a (a) g f g (|g) f e d (d4) r8
 		a8 | d e f e (e) d c d (|  d4) r4 
