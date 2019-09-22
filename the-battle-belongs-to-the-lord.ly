@@ -2,7 +2,7 @@
 \header {
   title = "The Battle Belongs to the Lord"
   composer = "Words and Music: Jamie Owens-Collins"
-  copyright = "Arranged by Szaby Grünwald (2019)"
+  copyright = "Arr. by Sz. Grünwald (2019)"
   tagline = "Music engraving using LilyPond with Hacklily.org"
 }
 
@@ -81,6 +81,7 @@ songMelody = \relative {
 
 	}
 >>
-\layout {}
+\layout {
+}
 \midi { }
 }
