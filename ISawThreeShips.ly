@@ -14,6 +14,7 @@ songChords = \chords {
 songMelody = \relative {
 		\set Score.tempoHideNote = ##t
 		\tempo 4 = 98
+		\numericTimeSignature
 		\time 6/8
 		\key c \major
 
@@ -25,8 +26,8 @@ songMelody = \relative {
 
 \score {
 <<
-	\transpose c d \songChords
-	\transpose c d \songMelody
+	\transpose c f \songChords
+	\transpose c f \songMelody
 	
 >>
 \layout {
