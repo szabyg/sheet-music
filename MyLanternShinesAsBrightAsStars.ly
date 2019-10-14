@@ -1,4 +1,4 @@
-#(set-default-paper-size "a4")
+#(set-default-paper-size "a5")
 \header {
   title = "My lantern shines as bright as stars"
   subtitle = "Melody: I saw three ships"
