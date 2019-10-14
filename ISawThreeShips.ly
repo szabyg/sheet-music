@@ -1,6 +1,7 @@
 #(set-default-paper-size "a4")
 \header {
-  title = "I Saw Three Ships"
+  title = "My lantern shines as bright as stars"
+  subtitle = "Melody: I saw three ships"
   composer = ""
   copyright = "Arr. by Sz. Grünwald (2019)"
   tagline = "Music engraving using LilyPond with Hacklily.org"
