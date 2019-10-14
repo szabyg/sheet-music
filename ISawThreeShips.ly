@@ -28,8 +28,37 @@ songMelody = \relative {
 <<
 	\transpose c f \songChords
 	\transpose c f \songMelody
-	
+		\addlyrics {
+		\set stanza = #"1. "
+		My lan -- tern shines as bright as stars
+		As bright as stars, _ as bright as stars
+		My lan -- tern shines as bright as stars
+		It shines for you - and me -
+	}
+		\addlyrics {
+		\set stanza = #"2. "
+		St. Mar -- tin was a gi -- ving man
+		A gi -- ving man, _ a gi -- ving man
+		St. Mar -- tin was a gi -- ving man
+		He shared what_he had with the poor -
+	}
+		\addlyrics {
+		\set stanza = #"3. "
+		He met a beg -- gar on his way -
+		On his way, _ _ on his way
+		He met a beg -- gar on his way
+		And gave him_his coat and his bread -
+	}
+		\addlyrics {
+		\set stanza = #"4. "
+		One doesn't _ need a lot to live
+		A lot to live, _ a lot to live
+		One doesn't _ need a lot to live
+		Be thankful for what - you have -
+	}
+
 >>
+
 \layout {
 }
 \midi { }
