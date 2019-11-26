@@ -17,6 +17,14 @@ songMelody = \relative {
 		\key g \major
 		b'8. b16 (b8) b8 c4 b | r4 r r r8 d8 |
 		d8. b16 b8 a a g e4 | r1 |
+
+		b'8. b16 (b8) b8 c4 b | r4 r r r8 d8 |
+		d8. b16 b8 a a g e4 | r1 |
+
+		a8. a16 (a8) a8 b4 a | 
+		r2 a8 b a g | g1 | r2 r4
+
+		d'4 | d d g,2 | e'4 d8 b (b) a g d' | d4 d g,2
 		\bar "|."
 	}
 
@@ -44,7 +52,7 @@ Great things for me
 	\addlyrics {
 		\set stanza = #"2. "
 com -- pa-ny of an -- gels
- Glory in the highest
+- Glo -- ry in the high - -- est
 And on the earth peace among
 Those of whom His favor rests
 Oh, come and worship
