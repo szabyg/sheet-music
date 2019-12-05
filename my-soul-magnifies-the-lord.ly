@@ -27,7 +27,8 @@ songMelody = \relative {
 
 		d'4 | d d g,2 | e'4 d8 b (b a) g d' (d4) d g,2 |
 		e'4 d8 b (b a) g d' (d1)
-		e8 d4 b d d8 (d4) g,8 g (g8) d'4 d8 (d4) g,8 g8 (g2)
+		e8 d4 b d d8 (d4) g,8 g (g8) d'4 d8 (d4) g,8 g8 (g4.)
+		d8
 
 		\bar "|."
 	}
@@ -51,16 +52,23 @@ My soul, my soul mag -- ni -- fies the Lord
 My soul mag -- ni -- fies the Lord
 He has done great things for me
 Great things for me
+A 
 	}
 
 	\addlyrics {
 		\set stanza = #"2. "
-Com -- pa-ny of an -- gels
+com -- pa-ny of an -- gels
 _ Glo -- ry in the high - -- est
 And on the earth peace a -- mong
 _ Those of whom His fa -- vor rests
-Oh, come and worship
-Do not be afraid, no, no
+Come _ and wor -- ship
+Do not be af -- raid
+
+My soul, my soul mag -- ni -- fies the Lord
+My soul mag -- ni -- fies the Lord
+He has done great things for me
+Great things for me
+
 	}
 
 	\addlyrics {
@@ -71,6 +79,11 @@ Let every heart pre -- pare His throne
 And eve -- ry na -- tion un -- der Heaven
 Come _ and wor -- ship
 Do not be af -- raid
+
+My soul, my soul mag -- ni -- fies the Lord
+My soul mag -- ni -- fies the Lord
+He has done great things for me
+Great things for me
 	}
 >>
 \layout {
