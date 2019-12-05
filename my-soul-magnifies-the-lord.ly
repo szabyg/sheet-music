@@ -7,8 +7,10 @@
 }
 
 songChords = \chords { 
-		g1 g c
+		g1 s c:2 s g s c:2 s
+		d s a:m7 c
 
+		g s d/fis s e:m7 s c:2 s
 	}
 
 songMelody = \relative {
@@ -33,8 +35,8 @@ songMelody = \relative {
 
 \score {
 <<
-	\transpose d d \songChords
-	\transpose d d \songMelody
+	\transpose g d \songChords
+	\transpose g d \songMelody
 	
 	\addlyrics {
 		\set stanza = #"1. "
