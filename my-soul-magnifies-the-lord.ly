@@ -1,4 +1,5 @@
 #(set-default-paper-size "a4")
+#(set-global-staff-size 24)
 \header {
   title = "My Soul Magnifies the Lord"
   composer = "Chris Tomlin"
@@ -17,17 +18,17 @@ songMelody = \relative {
 		\tempo 4 = 98
 		\key g \major
 		b'8. b16 (b8) b8 c (c) b4 (b) r4 r r8 d8 |
-		d8. b16 b8 a a g e4 (e) r r4. d8
+		d8. b16 b8 a a g e4 (e) r r4 r8 d8
 
 		b'8. b16 (b8) b8 c b b4 | r4 r r r8 d8 |
 		d8. b16 b8 a a g e4 | r1 |
 
-		a8. a16 (a8) g8 b4 a (a4)
+		a4. g8 b4 a (a4)
 		r4 a8 b a g | g1 | r2 r4
 
 		d'4 | d d g,2 | e'4 d8 b (b a) g d' (d4) d g,2 |
 		e'4 d8 b (b a) g d' (d1)
-		e8 d4 b d d8 (d4) g,8 g (g8) d'4 d8 (d4) g,8 g8 (g4.)
+		e8 d4 b d d8 (d4) g,8 g4 d'4 d8 (d4) g,8 g8 (g4.)
 		d8
 
 		\bar "|."
@@ -45,7 +46,7 @@ Good news of great joy
 For eve -- ry wo -- man, eve -- 'ry man
 _ This will_be a sign to you
 A ba -- by born in Beth -- le -- hem
-Come _ and wor -- ship
+Come and wor -- ship
 Do not be af -- raid
 
 My soul, my soul mag -- ni -- fies the Lord
@@ -61,7 +62,7 @@ com -- pa-ny of an -- gels
 _ Glo -- ry in the high - -- est
 And on the earth peace a -- mong
 _ Those of whom His fa -- vor rests
-Come _ and wor -- ship
+Come and wor -- ship
 Do not be af -- raid
 
 My soul, my soul mag -- ni -- fies the Lord
@@ -77,7 +78,7 @@ Unto you a child_is born
 _ Un -- to us a Son is given
 Let every heart pre -- pare His throne
 And eve -- ry na -- tion un -- der Heaven
-Come _ and wor -- ship
+Come and wor -- ship
 Do not be af -- raid
 
 My soul, my soul mag -- ni -- fies the Lord
@@ -87,6 +88,7 @@ Great things for me
 	}
 >>
 \layout {
+annotate-spacing = ##t
 }
 \midi { }
 }
